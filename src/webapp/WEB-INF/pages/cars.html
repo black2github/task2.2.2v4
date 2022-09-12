@@ -16,9 +16,9 @@
     </thead>
     <tbody>
     <tr th:each="car : ${cars}">
-        <td th:text="${car.f1}"></td>
-        <td th:text="${car.f2}"></td>
-        <td th:text="${car.f3}"></td>
+        <td th:text="${car.getF1()}"></td>
+        <td th:text="${car.getF2()}"></td>
+        <td th:text="${car.getF3()}"></td>
     </tr>
     </tbody>
 </table>
